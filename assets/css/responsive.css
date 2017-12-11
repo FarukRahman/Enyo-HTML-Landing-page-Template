@@ -1,0 +1,196 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+.banner-img h1 {
+	font-size: 60px;
+}
+.banner-img p {
+	font-size: 20px;
+	
+}
+.banner-img {
+	min-height: 788px;
+}
+.downloadit img {
+  position: relative;
+  right: 0;
+  width: 100%;
+}
+.downloadit h2 {
+	font-size: 42px;}
+	.features h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.single-plan {
+  margin: 20px 0;
+}
+.downloads h2 {
+  font-size: 24px;
+  margin-bottom: 25px;
+}
+.downloadit {
+  padding-bottom: 80px;
+}
+.features {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.plan {
+  padding-top: 40px;
+}
+
+
+   
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+  	.slicknav_menu{display:block;}
+  	.mainmenu {display: none;}
+  	.slicknav_menu {
+  position: absolute;
+  right: 28px;
+  top: 18px;
+  background: transparent;
+}
+.slicknav_menutxt {
+  display: none !important;
+}
+
+.slicknav_btn {
+  background: transparent;
+}
+.header-search-bar {
+	margin-top: -34px;
+	position: absolute;
+	right: 0;
+	top: 50%;
+}
+.slicknav_icon {
+	position: relative;
+	z-index: 2;
+}
+.banner-img h1 {font-size: 24px;padding-top: 10px;}
+.banner-img p {
+  font-size: 17px;
+}
+.btn.enyo-btn {
+  margin-top: 35px;
+}
+.banner-img {
+	min-height: 480px;
+}
+.downloadit img {
+  position: relative;
+  right: 0;
+  width: 100%;
+}
+.downloadit h2 {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.features h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.single-plan {
+  margin: 20px 0;
+}
+.downloads h2 {
+  font-size: 24px;
+  margin-bottom: 25px;
+}
+.downloadit {
+  padding-bottom: 80px;
+}
+.features {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.plan {
+  padding-top: 40px;
+}
+
+
+
+
+    
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+ 	.slicknav_menu{display:block;}
+ 		.mainmenu {display: none;}
+ 		.slicknav_menu {
+  position: absolute;
+  right: 28px;
+  top: 18px;
+  background: transparent;
+}
+.slicknav_menutxt {
+  display: none !important;
+}
+
+.slicknav_btn {
+  background: transparent;
+}
+.header-search-bar {
+	margin-top: -34px;
+	position: absolute;
+	right: 0;
+	top: 50%;
+}
+.slicknav_icon {
+	position: relative;
+	z-index: 2;
+}
+.banner-img h1 {font-size: 40px;padding-top: 10px;}
+.banner-img p {
+  font-size: 17px;
+}
+.btn.enyo-btn {
+  margin-top: 35px;
+}
+.banner-img {
+	min-height: 480px;
+}
+.downloadit img {
+  position: relative;
+  right: 0;
+  width: 100%;
+}
+.downloadit h2 {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.features h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.single-plan {
+  margin: 20px 0;
+}
+.downloads h2 {
+  font-size: 24px;
+  margin-bottom: 25px;
+}
+.downloadit {
+  padding-bottom: 80px;
+}
+.features {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.plan {
+  padding-top: 40px;
+}
+
+}

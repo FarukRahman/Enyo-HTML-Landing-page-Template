@@ -1,0 +1,257 @@
+
+
+
+ body{
+        font-family: 'Open Sans', sans-serif;font-size:14px;
+}
+    
+
+
+
+img{max-width: 100%}
+/*Navigation*/
+.mainmenu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.mainmenu li {
+  display: inline-block;
+  position: relative;
+}
+
+  .mainmenu-area {
+    background-color: #0292dc;
+    padding-top: 30px;
+}
+  
+
+.mainmenu ul li a {
+    color: #fff;
+    font-size: 14px;
+    padding: 30px 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.mainmenu ul li a:hover{    
+    color:#FF2868;
+    transition:all 0.5s;   
+    
+}
+.logo h1 {
+  color: #fff;
+}
+.mainmenu {
+    margin-right: 40px;
+    text-align: right;
+    
+}
+.header-search-bar {
+    margin-top: -20px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+.header-search-bar {} .header-search-bar:after {
+    font-family: fontawesome;
+    content: "\f002";
+    color: #fff;
+}
+.header-search-bar:after {
+    position: absolute;
+    right: 15px;
+    top: 5px;
+    z-index: 1
+}
+.header-search-bar form {
+    position: relative;
+    z-index: 9;
+}
+.header-search-bar input[type="search"] {
+    border: medium none;
+    cursor: pointer;
+    height: 40px;
+    padding: 5px 15px;
+    text-indent: -9999px;
+    -webkit-transition: all 0.2s ease 0s;
+    transition: all 0.2s ease 0s;
+    width: 40px;
+    background: none;
+}
+.header-search-bar input[type="search"]:focus {
+    border: 1px solid #ddd;
+    text-indent: 0;
+    width: 200px;
+    background: #fff;
+    cursor: text
+}
+
+.slicknav_menu {
+    display:none;
+}
+
+.slicknav_menu ul {
+  background: #ff2868;
+  width: 250px;
+  padding: 20px;
+  z-index: 2;
+  position: absolute;
+  right: 0;
+}
+.slicknav_menu a {
+  font-size: 17px;
+  font-weight: 400;
+  padding: 5px 10px;
+}
+.banner-img h1 {
+    font-size: 72px;
+    font-family: Roboto,sans-serif;
+    padding-top: 100px;
+    font-weight: 700;
+}
+.banner-img p {
+    font-size: 24px;
+    margin-top: 20px;
+}
+.banner-img {
+    width: 100%;
+    height: 30em;
+    background-image: url("assets/images/mountains.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 1338px;
+    display: block;
+}
+.banner-img {
+    text-align: center;
+    padding-top: 4em;
+}
+.downloadit {
+  position: relative;
+  padding-bottom: 140px;
+  margin-top: -100px;
+  
+}
+
+.downloadit img {
+  position: absolute;
+  top: 0;
+  right: 140px;
+  display: block;
+}
+.downloadit h2 {
+    font-size: 72px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    font-family: Roboto, sans-serif;
+}
+.downloadit ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.downloadit-content i.fa {
+    color: #FF6694 !important;
+    font-size: 20px;
+    width: 20px;
+    margin-left: 20px;
+    /* font-weight: 400 !important; */
+}
+.btn.enyo-btn {
+    width: 215px;
+    height: 60px;
+    border-radius: 32px;
+    background: #25365D !important;
+    margin-top: 70px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+}
+.btn.enyo-btn:hover {
+  background-color: #ff2868;
+  transition: all 0.5s;
+}
+.media img {
+    height: 50px;
+    width: 60px;
+}
+
+.features {
+  margin-top: 120px;
+  margin-bottom: 100px;
+}
+.features h2 {
+    margin-bottom: 60px;
+    font-size: 72px;
+    font-weight: 500;
+    font-family: Roboto, sans-serif;
+}
+.plan {
+  background: #F7F9FB;
+  padding: 110px 0 115px;
+}
+.plan h2 {
+    font-family: Roboto, sans-serif;
+    margin-bottom: 40px;
+}
+.single-plan {
+    margin: 70px 0;
+    background: #fff;
+    padding: 35px;
+    box-shadow: 0 1px 6px rgba(57,73,76,.35);
+}
+
+.plan h4 {
+  margin: 18px 0 25px;
+  font-size: 22px;
+  color: #25365d;
+}
+.plan a {
+  margin: 50px 30px 0;
+  display: inline-block;
+  font-size: 22px;
+  color: #25365d;
+  font-weight: 700;
+  text-decoration: none;
+}
+.plan a i {
+  font-size: 30px;
+  margin-right: 5px;
+  top: 3px;
+  position: relative;
+}
+.plan a:hover {
+  color: #ff2868;
+  transition: all 0.5s;
+}
+.downloads h2 {
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    font-weight: 600;
+    font-family: Roboto,sans-serif;
+}
+
+.btn.enyo-btn:hover {
+  background: #ff2868 !important;
+  border: 1px slid #ff2868;
+  transition: all 0.5s;
+}
+footer p{font-size:18px; text-align:center; padding-top:15px;margin-bottom: 80px;}
+footer p a:hover{
+    color:#ff2868;
+    transition:all 0.5s;
+    text-decoration: none;
+}
+div.footer-img {
+    width: 100%;
+    height: 20em;
+    background: linear-gradient(rgba(255, 255, 255, 1.00), rgba(255, 255, 255, 0.00)),
+              rgba(255,255,255,0.95) url('assets/images/mountains-footer.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    margin: 0 auto;   
+}
